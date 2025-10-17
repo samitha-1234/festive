@@ -1,0 +1,50 @@
+body {
+  text-align: center;
+  background-color: #fffaf7;
+  color: #333;
+  font-family: 'Dancing Script', cursive;
+}
+.kurta {
+  display: inline-block;                      
+  padding: 30px;
+  margin-top: 30px;
+  border: 3px dashed #c71585;               
+  border-radius: 20px;
+  background: linear-gradient(135deg, #ffe6f0, #fff5f9); 
+  box-shadow: 0 8px 15px rgba(199, 21, 133, 0.3);       
+}
+
+.kurta img {
+  width: 500px;
+  border-radius: 15px;
+  margin-top: 10px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /
+}
+
+
+.kurta h1 {
+  font-size: 45px;
+  margin: 10px 0;
+}
+
+.kurta h2 {
+  font-size: 40px;
+  color: #c71585;
+  font-family: 'Dancing Script', cursive;
+}
+
+.old-price {
+  text-decoration: line-through;
+  font-family: 'Courier New', monospace;
+  font-size: 20px;
+  color: gray;
+  margin-left: 10px;
+}
+
+
+.off {
+  font-family: 'Courier New', monospace;
+  font-size: 40px;
+  color: green;
+  margin-left: 10px;
+}
